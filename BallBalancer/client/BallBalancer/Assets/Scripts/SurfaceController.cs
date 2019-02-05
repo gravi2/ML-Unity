@@ -41,7 +41,8 @@ public class SurfaceController : MonoBehaviour
     }
 
     private void InitTrainMode() {
-        tw = new StreamWriter("..\\tf-server\\data\\training.csv", true);
+        //location of the training.csv file
+        tw = new StreamWriter("..\\..\\tf-server\\data\\training.csv", true);
 
     }
 
